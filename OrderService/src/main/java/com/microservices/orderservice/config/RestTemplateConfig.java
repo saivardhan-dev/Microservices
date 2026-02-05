@@ -1,8 +1,5 @@
-package com.microservices.orderservice;
+package com.microservices.orderservice.config;
 
-// ===============================
-// 4) RestTemplateConfig.java
-// ===============================
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
