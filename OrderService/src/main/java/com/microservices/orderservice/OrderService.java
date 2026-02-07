@@ -1,5 +1,6 @@
 package com.microservices.orderservice;
 
+import com.microservices.orderservice.config.InventoryClient;
 import com.microservices.orderservice.exceptions.OrderNotFoundException;
 import com.microservices.orderservice.exceptions.OutOfStockException;
 import org.springframework.stereotype.Service;

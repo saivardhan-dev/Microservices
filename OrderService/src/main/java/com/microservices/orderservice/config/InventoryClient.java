@@ -1,4 +1,4 @@
-package com.microservices.orderservice;
+package com.microservices.orderservice.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;

@@ -21,8 +21,9 @@ public class InventoryService {
 
     public InventoryModel getById(String productId) {
         return repo.findById(productId)
-                .orElseThrow(() -> new RuntimeException("Product not found with id: " + productId));
+                .orElseThrow(() -> new ProductNotFoundException("Product not found with id: " + productId));
     }
+
 
     public InventoryModel create(InventoryModel product) {
         return repo.save(product);
